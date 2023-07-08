@@ -1,3 +1,3 @@
-# e8def05c6506
+# google
 + `fna` Raro Kurnova
 + `usr` rrkurnova
