@@ -15,6 +15,16 @@ Or it is also __bold__, while this is _italic_.
 ## newline
 
 ```markdown
+This is first sentence.  
+And this is second sentence.
+```
+
+This is first sentence.  
+And this is second sentence.
+
+
+
+```markdown
 This is first sentence.
 
 And this is the second one.
