@@ -4,12 +4,16 @@
 
 # subscript and superscript
 ```markdown
-
+Ionization of water <br>
+H<sub>2</sub>O<sub>(l)</sub> &lrhar;
+H<sup>+</sup><sub>(aq)</sub> +
+OH<sup>-</sup><sub>(aq)</sub>
 ```
 
-Ionization of water
-
-H<sub>2</sub>O<sub>(l)</sub> &lrhar; H<sup>+</sup><sub>(aq)</sub> + OH<sup>-</sup><sub>(aq)</sub>
+Ionization of water <br>
+H<sub>2</sub>O<sub>(l)</sub> &lrhar;
+H<sup>+</sup><sub>(aq)</sub> +
+OH<sup>-</sup><sub>(aq)</sub>
 
 
 
