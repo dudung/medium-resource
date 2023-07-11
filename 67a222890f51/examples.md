@@ -19,6 +19,27 @@
 9. transformed to
 3. an ordered list.
 
+```markdown
++ First item
++ Second item
+
+- First item
+- Second item
+
+* First item
+* Second item
+```
+
++ First item
++ Second item
+
+- First item
+- Second item
+
+* First item
+* Second item
+
+
 
 ## subscript and superscript
 ```markdown
