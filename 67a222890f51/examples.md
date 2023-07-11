@@ -1,8 +1,24 @@
 # examples
-
 <br><br><br><br>
 
-# subscript and superscript
+## list
+
+```markdown
+1. As long as a list
+8. begins with integer number (&ge; 0) followed by a period,
+0. it can be
+9. transformed to
+3. Ordered list.
+```
+
+1. As long as a list
+8. begins with integer number (&ge; 0) followed by a period,
+0. it can be
+9. transformed to
+3. Ordered list.
+
+
+## subscript and superscript
 ```markdown
 Ionization of water <br>
 H<sub>2</sub>O<sub>(l)</sub> &lrhar;
@@ -17,7 +33,7 @@ OH<sup>-</sup><sub>(aq)</sub>
 
 
 
-# bold and italic
+## bold and italic
 ```markdown
 This is **bold**, while this is *italic*.
 
