@@ -5,17 +5,19 @@
 
 ```markdown
 1. As long as a list
-8. begins with integer number (&ge; 0) followed by a period,
+8. begins with integer number (&ge; 0)
+100.followed by a period then a space
 0. it can be
 9. transformed to
-3. Ordered list.
+3. an ordered list.
 ```
 
 1. As long as a list
-8. begins with integer number (&ge; 0) followed by a period,
+8. begins with integer number (&ge; 0)
+100. followed by a period then a space
 0. it can be
 9. transformed to
-3. Ordered list.
+3. an ordered list.
 
 
 ## subscript and superscript
