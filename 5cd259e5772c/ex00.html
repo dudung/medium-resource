@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS + div</title>
+
+<style>
+.page {
+  background: #000;
+}
+.all {
+  width: 50%;
+  height: 108px;
+}
+.left {
+  float: left;
+  background: #f80;
+}
+.right {
+  float: right;
+  background: #8c8;
+  text-align: right;
+}
+.bottom {
+  filter: invert(1);
+  bottom: 0;
+}
+.center {
+  position: absolute;
+  left: 25%;
+  top: 58px;
+  text-align: center;
+  background: #fff;
+  mix-blend-mode: difference;
+  border-radius: 20px;
+  font-size: 4.2em;
+}
+.content {
+  padding: 10px 12px;
+}
+.top.left {
+  border-top-left-radius: 20px;
+}
+.top.right {
+  border-top-right-radius: 20px;
+}
+.bottom.left {
+  border-bottom-left-radius: 20px;
+}
+.bottom.right {
+  border-bottom-right-radius: 20px;
+}
+
+</style>
+
+  </head>
+  <body>
+
+<div class="page">
+
+<div class="left top all">
+  <div class="content">
+  left-top
+  </div>
+</div>
+
+<div class="right top all">
+  <div class="content">
+  right-top
+  </div>
+</div>
+
+<div class="left bottom all">
+  <div class="content">
+  <br><br><br><br>left-bottom
+  </div>
+</div>
+
+<div class="right bottom all">
+  <div class="content">
+  <br><br><br><br>right-bottom
+  </div>
+</div>
+
+<div class="center all">
+  <div class="content">
+  center
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>

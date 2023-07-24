@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Default</title>
+
+<style>
+.page {
+  box-sizing: border-box;
+  background: lightgrey;
+  height: calc(100vh - 16px);
+}
+
+.def-pos {
+  box-sizing: inherit;
+  width: 50vw;
+  border: 1px solid #f00;
+  background: #fcc;
+  padding: 10px;
+}
+
+.rel-pos {
+  box-sizing: inherit;
+  width: 50vw;
+  border: 1px solid #0f0;
+  background: #cfc;
+  padding: 10px;
+  position: relative;
+  left: 25%;
+  top: 25%;
+}
+
+.abs-pos {
+  box-sizing: inherit;
+  width: 50vw;
+  border: 1px solid #00f;
+  background: #ccf;
+  padding: 10px;
+  opacity: 0.8;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+</style>
+
+  </head>
+  <body>
+<div class="page">
+<!-- begin -->
+
+<div class="def-pos">
+These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.
+</div>
+
+<div class="rel-pos">
+These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.
+</div>
+
+<div class="abs-pos">
+These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.
+</div>
+
+
+<!-- end -->
+</div>
+  </body>
+</html>
